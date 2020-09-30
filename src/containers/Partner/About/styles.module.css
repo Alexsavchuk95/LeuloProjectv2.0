@@ -1,0 +1,131 @@
+.wrapper {
+    width: 100%; 
+    padding: 100px 0px;
+}
+
+.container{
+    width: 1185px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.title{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 4px;
+    color: #d7c186;
+}
+.list {
+    margin: 0;
+    padding: 0;
+    top:45px;
+    right:0px;
+    background-color: white;
+    font-weight:bold;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.listItem {
+    border-bottom: 1px solid #e5e5e5;
+}
+.listItem:last-child {
+    border-bottom: none;
+}
+.listItem:hover {
+    background-color: #e5e5e5;
+    color: white;
+}
+
+.btnCont{
+    width: 500px;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    padding: 0 10px;
+    border-radius:5px;
+    letter-spacing: 0.1em;
+    color: #3a3b3f;
+    font-weight: 100;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: left;
+}
+
+.Cnt {
+    display: flex;
+}
+
+.arrow{
+    width: 16px;
+}
+
+.arrow:hover {
+    fill: #cdb166;
+}
+
+.btn:hover{
+    color: #cdb166;
+}
+
+.active{
+    padding: 6px 10px;
+    text-transform: uppercase;
+}
+
+.stList{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.stList::before{
+    position: absolute;
+    content: ' ';
+    width: 100%;
+    height: 1px;
+    top: -14px;
+    background: #3a3b3f
+}
+
+.aboutExt{
+    padding: 10px;
+    line-height: 1.4;
+}
+
+.aboutImg{
+    padding: 10px;
+    margin: 20px auto 0px;
+}
+
+
+/*   =========MEDIA FOR MOBILE=========== */
+
+
+@media (max-width: 700px) {
+    .title {
+        margin-bottom: 40px;
+    }
+    .wrapper{
+        padding: 50px 10px;
+    }
+    .container{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}

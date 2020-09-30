@@ -1,0 +1,30 @@
+.sl {
+  max-width: 1277px;
+  height: 514px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding-bottom: 0px;
+  --control-bullet-color: #000;
+  --control-bullet-active-color: #fff;
+  --organic-arrow-height: 30px;
+  --organic-arrow-color: #000;
+  --organic-arrow-thickness: 2px;
+}
+
+.slText {
+  z-index: 7;
+}
+
+@media (max-width: 560px) {
+  .sl {
+    margin-bottom: 20px;
+    height: 265px;
+  }
+}
+
+@media (max-width: 800px) {
+  .sl {
+    margin-bottom: 20px;
+    height: 365px;
+  }
+}

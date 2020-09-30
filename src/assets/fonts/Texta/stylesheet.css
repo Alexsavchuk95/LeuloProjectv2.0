@@ -1,0 +1,330 @@
+@font-face {
+    font-family: 'TextaNarrow-ThinIt';
+    src: url('TextaNarrow-ThinIt.eot');
+    src: local('☞TextaNarrow-ThinIt'), local('TextaNarrow-ThinIt'),
+        url('TextaNarrow-ThinIt.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrow-ThinIt.woff2') format('woff2'),
+        url('TextaNarrow-ThinIt.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrowAlt-BlackIt';
+    src: url('TextaNarrowAlt-BlackIt.eot');
+    src: local('☞TextaNarrowAlt-BlackIt'), local('TextaNarrowAlt-BlackIt'),
+        url('TextaNarrowAlt-BlackIt.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrowAlt-BlackIt.woff2') format('woff2'),
+        url('TextaNarrowAlt-BlackIt.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrowAlt-It';
+    src: url('TextaNarrowAlt-It.eot');
+    src: local('☞TextaNarrowAlt-It'), local('TextaNarrowAlt-It'),
+        url('TextaNarrowAlt-It.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrowAlt-It.woff2') format('woff2'),
+        url('TextaNarrowAlt-It.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrowAlt';
+    src: url('TextaNarrowAlt-Black.eot');
+    src: local('☞TextaNarrowAlt-Black'), local('TextaNarrowAlt-Black'),
+        url('TextaNarrowAlt-Black.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrowAlt-Black.woff2') format('woff2'),
+        url('TextaNarrowAlt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrowAlt';
+    src: url('TextaNarrowAlt-Thin.eot');
+    src: local('☞TextaNarrowAlt-Thin'), local('TextaNarrowAlt-Thin'),
+        url('TextaNarrowAlt-Thin.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrowAlt-Thin.woff2') format('woff2'),
+        url('TextaNarrowAlt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrow-It';
+    src: url('TextaNarrow-It.eot');
+    src: local('☞TextaNarrow-It'), local('TextaNarrow-It'),
+        url('TextaNarrow-It.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrow-It.woff2') format('woff2'),
+        url('TextaNarrow-It.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrowAlt';
+    src: url('TextaNarrowAlt-Bold.eot');
+    src: local('☞TextaNarrowAlt-Bold'), local('TextaNarrowAlt-Bold'),
+        url('TextaNarrowAlt-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrowAlt-Bold.woff2') format('woff2'),
+        url('TextaNarrowAlt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrowAlt-ThinIt';
+    src: url('TextaNarrowAlt-ThinIt.eot');
+    src: local('☞TextaNarrowAlt-ThinIt'), local('TextaNarrowAlt-ThinIt'),
+        url('TextaNarrowAlt-ThinIt.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrowAlt-ThinIt.woff2') format('woff2'),
+        url('TextaNarrowAlt-ThinIt.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrow';
+    src: url('TextaNarrow-Heavy.eot');
+    src: local('☞TextaNarrow-Heavy'), local('TextaNarrow-Heavy'),
+        url('TextaNarrow-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrow-Heavy.woff2') format('woff2'),
+        url('TextaNarrow-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrowAlt-BoldIt';
+    src: url('TextaNarrowAlt-BoldIt.eot');
+    src: local('☞TextaNarrowAlt-BoldIt'), local('TextaNarrowAlt-BoldIt'),
+        url('TextaNarrowAlt-BoldIt.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrowAlt-BoldIt.woff2') format('woff2'),
+        url('TextaNarrowAlt-BoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrowAlt-BookIt';
+    src: url('TextaNarrowAlt-BookIt.eot');
+    src: local('☞TextaNarrowAlt-BookIt'), local('TextaNarrowAlt-BookIt'),
+        url('TextaNarrowAlt-BookIt.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrowAlt-BookIt.woff2') format('woff2'),
+        url('TextaNarrowAlt-BookIt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrow';
+    src: url('TextaNarrow-Thin.eot');
+    src: local('☞TextaNarrow-Thin'), local('TextaNarrow-Thin'),
+        url('TextaNarrow-Thin.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrow-Thin.woff2') format('woff2'),
+        url('TextaNarrow-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrow';
+    src: url('TextaNarrow-Light.eot');
+    src: local('☞TextaNarrow-Light'), local('TextaNarrow-Light'),
+        url('TextaNarrow-Light.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrow-Light.woff2') format('woff2'),
+        url('TextaNarrow-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrow-HeavyIt';
+    src: url('TextaNarrow-HeavyIt.eot');
+    src: local('☞TextaNarrow-HeavyIt'), local('TextaNarrow-HeavyIt'),
+        url('TextaNarrow-HeavyIt.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrow-HeavyIt.woff2') format('woff2'),
+        url('TextaNarrow-HeavyIt.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrow';
+    src: url('TextaNarrow-Black.eot');
+    src: local('☞TextaNarrow-Black'), local('TextaNarrow-Black'),
+        url('TextaNarrow-Black.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrow-Black.woff2') format('woff2'),
+        url('TextaNarrow-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrowAlt';
+    src: url('TextaNarrowAlt-Heavy.eot');
+    src: local('☞TextaNarrowAlt-Heavy'), local('TextaNarrowAlt-Heavy'),
+        url('TextaNarrowAlt-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrowAlt-Heavy.woff2') format('woff2'),
+        url('TextaNarrowAlt-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrowAlt-Book';
+    src: url('TextaNarrowAlt-Book.eot');
+    src: local('☞TextaNarrowAlt-Book'), local('TextaNarrowAlt-Book'),
+        url('TextaNarrowAlt-Book.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrowAlt-Book.woff2') format('woff2'),
+        url('TextaNarrowAlt-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrow-MediumIt';
+    src: url('TextaNarrow-MediumIt.eot');
+    src: local('☞TextaNarrow-MediumIt'), local('TextaNarrow-MediumIt'),
+        url('TextaNarrow-MediumIt.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrow-MediumIt.woff2') format('woff2'),
+        url('TextaNarrow-MediumIt.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrow';
+    src: url('TextaNarrow-Medium.eot');
+    src: local('☞TextaNarrow-Medium'), local('TextaNarrow-Medium'),
+        url('TextaNarrow-Medium.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrow-Medium.woff2') format('woff2'),
+        url('TextaNarrow-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrow-BlackIt';
+    src: url('TextaNarrow-BlackIt.eot');
+    src: local('☞TextaNarrow-BlackIt'), local('TextaNarrow-BlackIt'),
+        url('TextaNarrow-BlackIt.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrow-BlackIt.woff2') format('woff2'),
+        url('TextaNarrow-BlackIt.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrowAlt';
+    src: url('TextaNarrowAlt-Medium.eot');
+    src: local('☞TextaNarrowAlt-Medium'), local('TextaNarrowAlt-Medium'),
+        url('TextaNarrowAlt-Medium.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrowAlt-Medium.woff2') format('woff2'),
+        url('TextaNarrowAlt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrow';
+    src: url('TextaNarrow-Regular.eot');
+    src: local('☞TextaNarrow-Regular'), local('TextaNarrow-Regular'),
+        url('TextaNarrow-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrow-Regular.woff2') format('woff2'),
+        url('TextaNarrow-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrowAlt-MediumIt';
+    src: url('TextaNarrowAlt-MediumIt.eot');
+    src: local('☞TextaNarrowAlt-MediumIt'), local('TextaNarrowAlt-MediumIt'),
+        url('TextaNarrowAlt-MediumIt.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrowAlt-MediumIt.woff2') format('woff2'),
+        url('TextaNarrowAlt-MediumIt.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrow-BookIt';
+    src: url('TextaNarrow-BookIt.eot');
+    src: local('☞TextaNarrow-BookIt'), local('TextaNarrow-BookIt'),
+        url('TextaNarrow-BookIt.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrow-BookIt.woff2') format('woff2'),
+        url('TextaNarrow-BookIt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrowAlt-HeavyIt';
+    src: url('TextaNarrowAlt-HeavyIt.eot');
+    src: local('☞TextaNarrowAlt-HeavyIt'), local('TextaNarrowAlt-HeavyIt'),
+        url('TextaNarrowAlt-HeavyIt.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrowAlt-HeavyIt.woff2') format('woff2'),
+        url('TextaNarrowAlt-HeavyIt.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrowAlt';
+    src: url('TextaNarrowAlt-Regular.eot');
+    src: local('☞TextaNarrowAlt-Regular'), local('TextaNarrowAlt-Regular'),
+        url('TextaNarrowAlt-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrowAlt-Regular.woff2') format('woff2'),
+        url('TextaNarrowAlt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrowAlt';
+    src: url('TextaNarrowAlt-Light.eot');
+    src: local('☞TextaNarrowAlt-Light'), local('TextaNarrowAlt-Light'),
+        url('TextaNarrowAlt-Light.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrowAlt-Light.woff2') format('woff2'),
+        url('TextaNarrowAlt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrowAlt-LightIt';
+    src: url('TextaNarrowAlt-LightIt.eot');
+    src: local('☞TextaNarrowAlt-LightIt'), local('TextaNarrowAlt-LightIt'),
+        url('TextaNarrowAlt-LightIt.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrowAlt-LightIt.woff2') format('woff2'),
+        url('TextaNarrowAlt-LightIt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrow';
+    src: url('TextaNarrow-Bold.eot');
+    src: local('☞TextaNarrow-Bold'), local('TextaNarrow-Bold'),
+        url('TextaNarrow-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrow-Bold.woff2') format('woff2'),
+        url('TextaNarrow-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TextaNarrow-BoldIt';
+    src: url('TextaNarrow-BoldIt.eot');
+    src: local('☞TextaNarrow-BoldIt'), local('TextaNarrow-BoldIt'),
+        url('TextaNarrow-BoldIt.eot?#iefix') format('embedded-opentype'),
+        url('TextaNarrow-BoldIt.woff2') format('woff2'),
+        url('TextaNarrow-BoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+

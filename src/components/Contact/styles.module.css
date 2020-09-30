@@ -1,0 +1,48 @@
+.wrapperPr {
+  width: 100%;
+  background: #f0eae6;
+}
+
+.container {
+  max-width: 940px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.containerCont {
+  max-width: 460px;
+  padding: 100px 0px;
+}
+
+.titleCon {
+  color: #3a3b3f;
+  line-height: 1.25em;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 32px;
+  letter-spacing: 0.2em;
+  margin-bottom: 30px;
+}
+
+.textCon {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.contacs {
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: 400;
+  line-height: 1.6em;
+}
+
+.spCont {
+  font-size: 17px;
+  display: block;
+  margin-bottom: 22px;
+}
+
+.spCont:last-child {
+  margin-bottom: 0px;
+}

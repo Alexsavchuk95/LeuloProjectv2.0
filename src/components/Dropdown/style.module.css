@@ -1,0 +1,77 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.list {
+    margin: 0;
+    padding: 0;
+    top:45px;
+    right:0px;
+    background-color: white;
+    font-weight:bold;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.listItem {
+    border-bottom: 1px solid #e5e5e5;
+}
+.listItem:last-child {
+    border-bottom: none;
+}
+.listItem:hover {
+    background-color: #e5e5e5;
+    color: white;
+}
+.btn{
+    width: 160px;
+    font-size: 12px;
+    height: 30px;
+    padding: 0 10px;
+    margin-right: 10px;
+    border-radius:5px;
+    color: #3a3b3f;
+    font-weight: 100;
+    text-transform: uppercase;
+    position: relative;
+}
+.btn::before{
+    content: '';
+    position: absolute;
+    top: 40%;
+    left: 77%;
+    width: 7px;
+    height: 2px;
+    cursor: pointer;
+    transform: rotate(50deg);
+    cursor: pointer;
+    background-color: #3a3b3f;
+}
+
+.btn::after{
+    content: '';
+    position: absolute;
+    top: 40%;
+    left: 79%;
+    width: 7px;
+    height: 2px;
+    cursor: pointer;
+    transform: rotate(-50deg);
+    cursor: pointer;
+    background-color: #3a3b3f;
+}
+.btn:hover::before ,:hover::after{
+    background-color: #cdb166;
+}
+
+.btn:hover{
+    color: #cdb166;
+}
+
+.active{
+    text-transform: uppercase;
+}
+
+.active > a{
+    padding: 6px 10px;
+}

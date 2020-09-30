@@ -1,0 +1,68 @@
+.follow {
+  padding-top: 26px;
+  max-width: 85px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.46em;
+  margin: 0 auto 50px;
+}
+
+.link {
+  width: 35px;
+  height: 35px;
+}
+.imgM {
+  width: inherit;
+  height: inherit;
+}
+
+.privacy {
+  display: flex;
+  width: 246px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
+.textFoo {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.43em;
+  font-size: 12px;
+  padding: 0px 20px 40px;
+}
+
+.privImg {
+  width: 170px;
+  height: 39px;
+  margin: 0 auto;
+}
+
+.imgPr {
+  width: 246px;
+  height: 55px;
+}
+
+.imgSocial {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+.list {
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.listItem {
+  margin: 0 auto 10px;
+}
+
+.listItem:last-child {
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+}
+
+.contSocial {
+  display: flex;
+}

@@ -1,0 +1,7 @@
+.headerDes {
+  max-width: 1200px;
+  padding: 22px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 10px;
+}

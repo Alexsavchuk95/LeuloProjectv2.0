@@ -1,0 +1,61 @@
+@import './fonts.css';
+@import './libs/normalize.css';
+@import './libs/reset.css';
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'HelveticaNeueCyr', sans-serif;
+}
+
+a {
+  color: #3a3b3f;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+
+a:hover {
+  color: #cdb166;
+}
+
+span {
+  color: #3a3b3f;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 1.46em;
+}
+
+img {
+  display: block;
+}
+
+p {
+  color: #3a3b3f;
+  font-weight: 100;
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+}
+
+button {
+  outline: 0;
+  border: 0px solid;
+  background: inherit;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h4 {
+  text-decoration: underline;
+}

@@ -1,0 +1,13 @@
+.headerDes {
+  width: 100%;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background: #fff;
+  z-index: 3;
+}
+
+.logo {
+  width: 102px;
+}

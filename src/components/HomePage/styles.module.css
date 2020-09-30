@@ -1,0 +1,103 @@
+.slider {
+  max-width: 1277px;
+  height: 514px;
+  margin: 0 auto;
+  background: antiquewhite;
+  margin-bottom: 100px;
+}
+
+.titleList {
+  color: #cdb166;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 40px;
+  height: 60px;
+}
+
+.textList {
+  font-size: 17px;
+  line-height: 1em;
+}
+
+.imgList {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 20px;
+}
+
+.imgW {
+  width: 48px;
+}
+
+.imgB {
+  width: 195px;
+  height: 375px;
+}
+
+.list {
+  max-width: 980px;
+  margin: 0 auto 70px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.listItem {
+  display: inline-block;
+  max-width: 280px;
+}
+
+.container {
+  max-width: 1277px;
+  margin: 0 auto;
+  height: 514px;
+  position: relative;
+}
+
+.supplements {
+  width: 90%;
+  height: 263px;
+  margin: 0 auto;
+  background: #d7c186;
+  bottom: 0;
+  content: '';
+  left: 63.5px;
+  position: absolute;
+}
+
+.supText {
+  position: absolute;
+  content: '';
+  color: #fff;
+  width: 290px;
+  text-align: center;
+  left: 20%;
+  bottom: 80px;
+}
+
+.jars {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  right: 10%;
+  bottom: 50px;
+  animation-name: jarsGo;
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
+
+@keyframes jarsGo {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}

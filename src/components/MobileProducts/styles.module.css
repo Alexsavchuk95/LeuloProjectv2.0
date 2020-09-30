@@ -1,0 +1,164 @@
+.wrapperPr {
+  width: 100%;
+  background: #f0eae6;
+  padding: 90px 20px 0px;
+}
+
+.containerPr {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px 0px;
+}
+.bounceCont {
+  height: 350px;
+}
+.bounceCont img {
+  position: relative;
+}
+
+.anImg {
+  width: 165px;
+  height: 165px;
+  object-fit: cover;
+}
+
+#orange {
+  height: 120px;
+  width: 120px;
+  top: -116px;
+  left: 101px;
+  animation-name: fadeInDown;
+  animation-duration: 3s;
+  animation-delay: 0s;
+}
+
+#green {
+  height: 120px;
+  width: 160px;
+  height: 140px;
+  width: 140px;
+  top: 162px;
+  left: -74px;
+  animation-name: fadeInDown;
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
+
+#bottle {
+  bottom: 250px;
+  width: 164px;
+  z-index: 1;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.title {
+  line-height: 0.9em;
+  text-transform: uppercase;
+  color: #3a3b3f;
+  font-size: 23px;
+}
+
+.undTitle {
+  font-size: 15px;
+}
+
+.about {
+  width: 380px;
+}
+
+.text {
+  margin-top: 10px;
+}
+
+#kivi {
+  height: 136px;
+  object-fit: cover;
+  top: 172px;
+  right: 100px;
+  animation-name: zoom;
+  animation-duration: 3s;
+  animation-delay: 0s;
+}
+
+#red {
+  width: 160px;
+  height: 100px;
+  object-fit: cover;
+  top: 77px;
+  left: 80px;
+  animation-name: zoom;
+  animation-duration: 3s;
+  animation-delay: 0s;
+}
+
+#dewBtl {
+  z-index: 1;
+  bottom: 210px;
+  width: 164px;
+}
+
+@keyframes zoom {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.infPr {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #3a3b3f;
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+
+.infText {
+  margin-bottom: 17px;
+  display: block;
+}
+
+.infText:last-child {
+  margin-bottom: 0px;
+}
+
+@media (min-width: 586px) and (max-width: 832px) {
+  .bounceCont {
+    width: 380px;
+  }
+  #bottle {
+    margin: 0 auto;
+  }
+  #dewBtl {
+    margin: 0 auto;
+  }
+  #green {
+    left: 5%;
+  }
+  #orange {
+    left: 54%;
+  }
+  #kivi {
+    right: 4%;
+  }
+  #red {
+    left: 210px;
+  }
+}

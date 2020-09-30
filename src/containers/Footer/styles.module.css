@@ -1,0 +1,53 @@
+.follow {
+  padding-top: 26px;
+  max-width: 70px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.46em;
+  margin: 0 auto 10px;
+}
+
+.privacy {
+  display: flex;
+  width: 246px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 14px;
+}
+
+.textFoo {
+  max-width: 955px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.43em;
+  font-size: 12px;
+}
+
+.imgPr {
+  width: 246px;
+  height: 55px;
+}
+
+.imgSocial {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+.list {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.listItem {
+  margin: 0 auto 10px;
+}
+
+.listItem:last-child {
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+}
+
+.contSocial {
+  display: flex;
+}

@@ -1,0 +1,136 @@
+.wrapperPr {
+  width: 100%;
+  background: #f0eae6;
+}
+
+.containerPr {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0px;
+}
+.bounceCont {
+  width: 560px;
+  height: 300px;
+}
+.bounceCont img {
+  position: relative;
+}
+
+.anImg {
+  width: 165px;
+  height: 165px;
+  object-fit: cover;
+}
+
+#orange {
+  top: -116px;
+  left: 101px;
+  animation-name: fadeInDown;
+  animation-duration: 3s;
+  animation-delay: 0s;
+}
+
+#green {
+  top: 175px;
+  left: -110px;
+  animation-name: fadeInDown;
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
+
+#bottle {
+  bottom: 300px;
+  z-index: 1;
+  width: 185px;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.title {
+  line-height: 0.9em;
+  text-transform: uppercase;
+  color: #3a3b3f;
+  font-size: 34px;
+}
+
+.undTitle {
+  font-size: 20px;
+}
+
+.about {
+  width: 520px;
+}
+
+.text {
+  margin-top: 20px;
+}
+
+#kivi {
+  width: 289px;
+  height: 205px;
+  object-fit: cover;
+  bottom: -100px;
+  left: 32px;
+  animation-name: fadeInRight;
+  animation-duration: 3s;
+  animation-delay: 0s;
+}
+
+#red {
+  width: 240px;
+  height: 135px;
+  object-fit: cover;
+  bottom: 46px;
+  left: 280px;
+  animation-name: fadeInRight;
+  animation-duration: 3s;
+  animation-delay: 0s;
+}
+
+#dewBtl {
+  z-index: 1;
+  bottom: 380px;
+  left: 200px;
+  width: 185px;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.infPr {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #3a3b3f;
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+
+.infText {
+  margin-bottom: 17px;
+  display: block;
+}
+
+.infText:last-child {
+  margin-bottom: 0px;
+}

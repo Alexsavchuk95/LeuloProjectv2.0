@@ -1,0 +1,25 @@
+.list {
+  margin: 70px auto;
+  text-align: center;
+}
+
+.listItem {
+  margin-bottom: 20px;
+  padding-top: 40px;
+}
+
+.link {
+  color: #fff;
+  font-size: 20px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+  margin: 0 auto;
+}
+
+.socialImg {
+  width: 25px;
+}

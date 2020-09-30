@@ -1,0 +1,41 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 30px;
+  padding: 10px 10px;
+}
+
+.listItem {
+  font-size: 14px;
+  height: 30px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  width: 60px;
+}
+
+.transBut {
+  border: 0px;
+  background: inherit;
+  padding: 3.5px 0px;
+  outline: 0;
+  color: #3a3b3f;
+}
+
+.transBut:hover {
+  cursor: pointer;
+}
+
+.flag {
+  width: 30px;
+}
+
+.sp {
+  padding: 4px 0px;
+}
