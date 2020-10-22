@@ -72,6 +72,8 @@ class ContactForm extends Component {
               className="text-primary"
               onChange={this.handleChange.bind(this, 'email')}
               placeholder={t('ContuctUs.12')}
+              required
+              minLength="6"
             />
           </FormGroup>
           <FormGroup>
@@ -82,6 +84,8 @@ class ContactForm extends Component {
               className="text-primary"
               onChange={this.handleChange.bind(this, 'name')}
               placeholder={t('ContuctUs.6')}
+              required
+              minLength="6"
             />
           </FormGroup>
           <FormGroup>
@@ -92,6 +96,8 @@ class ContactForm extends Component {
               className="text-primary"
               onChange={this.handleChange.bind(this, 'phone')}
               placeholder={t('ContuctUs.7')}
+              required
+              minLength="6"
             />
           </FormGroup>
           <FormGroup>
@@ -102,6 +108,8 @@ class ContactForm extends Component {
               value={subject}
               onChange={this.handleChange.bind(this, 'subject')}
               placeholder={t('ContuctUs.8')}
+              required
+              minLength="6"
             />
           </FormGroup>
           <FormGroup>
